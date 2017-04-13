@@ -1,0 +1,347 @@
+
+
+
+
+
+
+
+
+
+
+ : : -12.7771, 7.74536 : : -12.7771, 7.74536
+ : : -12.7771, 7.74536 : : -12.31567, 8.7561
+ : : -12.7771, 7.74536 : : -12.03003, 11.96411
+ : : -12.7771, 7.74536 : : -12.03003, 15.60059
+ : : -12.7771, 7.74536 : : -11.96411, 18.75366
+ : : -13.91968, 7.74536 : : -11.96411, 18.75366
+ : : -13.91968, 7.74536 : : -11.96411, 20.57739
+ : : -13.91968, 7.74536 : : -9.87671, 20.57739
+ : : -13.91968, 7.74536 : : -8.82202, 20.57739
+ : : -13.91968, 7.74536 : : -8.82202, 20.57739
+ : : -13.91968, 7.74536 : : -8.82202, 20.57739
+ : : -13.91968, 7.74536 : : -8.82202, 20.57739
+ : : -13.91968, 7.74536 : : -8.82202, 20.57739
+ : : -13.91968, 7.74536 : : -8.82202, 20.57739
+ : : -13.91968, 7.74536 : : -8.73413, 20.57739
+ : : -13.91968, 7.74536 : : -8.73413, 21.24756
+ : : -13.91968, 7.74536 : : -8.73413, 24.2688
+ : : -13.91968, 7.74536 : : -8.73413, 26.48804
+ : : -13.91968, 7.74536 : : -8.73413, 29.67407
+ : : -13.91968, 7.74536 : : -8.73413, 29.67407
+ : : -13.91968, 7.74536 : : -8.73413, 29.67407
+ : : -13.91968, 7.74536 : : -8.73413, 29.67407
+ : : -13.91968, 7.74536 : : -8.73413, 29.67407
+ : : -14.21631, 7.74536 : : -8.73413, 36.66138
+ : : -16.80908, 7.74536 : : -8.73413, 36.67236
+ : : -16.83105, 7.74536 : : -8.73413, 36.67236
+ : : -16.83105, 7.74536 : : -8.73413, 36.67236
+ : : -16.83105, 7.74536 : : -8.73413, 36.67236
+ : : -16.83105, 7.74536 : : -8.73413, 36.67236
+ : : -16.83105, 7.74536 : : -8.73413, 36.67236
+ : : -16.83105, 7.74536 : : -8.73413, 36.67236
+ : : -16.83105, 7.74536 : : -8.73413, 36.67236
+ : : -16.83105, 7.74536 : : -8.73413, 36.67236
+ : : -16.83105, 4.43848 : : -8.73413, 36.67236
+ : : -17.68799, 4.43848 : : -8.73413, 36.67236
+ : : -17.68799, 1.09863 : : -8.73413, 36.67236
+ : : -17.68799, 1.09863 : : -8.73413, 36.67236
+wakingup
+forcestatus:1
+awake
+go to start pose
+https://a988764591d47d22b828dbd6616886fe.eu-west-1.aws.found.io:9243/snmp-2017-03-07/ap_info/_search?source=%7b%22sort%22:%5b%7b%22@timestamp%22:%7b%22order%22:%22desc%22%7d%7d%5d%7d
+https://a988764591d47d22b828dbd6616886fe.eu-west-1.aws.found.io:9243/snmp-2017-03-07/ap_info/_search?source=%7b%22sort%22:%5b%7b%22@timestamp%22:%7b%22order%22:%22desc%22%7d%7d%5d%7d
+Reponse Content: {"took":6,"timed_out":false,"_shards":{"total":1,"successful":1,"failed":0},"hits":{"total":82774,"max_score":null,"hits":[{"_index":"snmp-2017-03-07","_type":"ap_info","_id":"AVqqqH5sS1Dkdox7yQeQ","_score":null,"_source":{"unicast_packets_rx":"967834","num_radios":"2","num_auth_clients":"16","unicast_packets_tx":"439051","receive_data_kb":"99540","dns_primary":"8.8.8.8","max_clients_permitted":"512","packets_tx":"439051","packets_rx_error":"0","packets_rx":"967834","bytes_rx_per_sec":3580583,"multicast_packets_rx":"0","bytes_tx_per_sec":185012,"tx_rate_90":"0","mac_address":"38:ff:36:19:12:c0","dns_secondary":"8.8.4.4","num_rogue_devices":"1","bytes_tx":"161744592","bytes_rx":"603954803","packets_dropped":"117722398","ip_address":"192.168.0.247","rx_rate_90":"1105","@timestamp":"2017-03-07T21:24:12Z","send_data_kb":"536369","multicast_packets_tx":"0","meta":{"name":"Spotlight - 2","num":"6","location_name":"Spotlight","location":{"lat":"-13.91968","lon":"18.75366"},"tags_all":["Closed","Opening Keynote"],"tags_on":["Closed"]},"connection_mode":"layer3","packets_rx_success":"967834","status":"connected"},"sort":[1488921852000]},{"_index":"snmp-2017-03-07","_type":"ap_info","_id":"AVqqqH5sS1Dkdox7yQeR","_score":null,"_source":{"unicast_packets_rx":"4697339","num_radios":"2","num_auth_clients":"24","unicast_packets_tx":"1937710","receive_data_kb":"378214","dns_primary":"8.8.8.8","max_clients_permitted":"512","packets_tx":"1937710","packets_rx_error":"0","packets_rx":"4697339","bytes_rx_per_sec":392533,"multicast_packets_rx":"0","bytes_tx_per_sec":586726,"tx_rate_90":"3691","mac_address":"38:ff:36:32:6b:f0","dns_secondary":"8.8.4.4","num_rogue_devices":"1","bytes_tx":"601422392","bytes_rx":"2440083914","packets_dropped":"48501","ip_address":"192.168.0.193","rx_rate_90":"0","@timestamp":"2017-03-07T21:24:12Z","send_data_kb":"2106178","multicast_packets_tx":"0","meta":{"name":"Stage C - 3","num":"26","location_name":"Stage C","location":{"lat":"-16.83105","lon":"33.35449"},"tags_all":["Closed","Opening Keynote"],"tags_on":["Closed"]},"connection_mode":"layer3","packets_rx_success":"4697339","status":"connected"},"sort":[1488921852000]},{"_index":"snmp-2017-03-07","_type":"ap_info","_id":"AVqqqH5sS1Dkdox7yQeS","_score":null,"_source":{"unicast_packets_rx":"8802236","num_radios":"2","num_auth_clients":"2","unicast_packets_tx":"4722177","receive_data_kb":"872690","dns_primary":"8.8.8.8","max_clients_permitted":"512","packets_tx":"4722177","packets_rx_error":"0","packets_rx":"8802236","bytes_rx_per_sec":81786,"multicast_packets_rx":"0","bytes_tx_per_sec":8668,"tx_rate_90":"938","mac_address":"38:ff:36:32:75:80","dns_secondary":"8.8.4.4","num_rogue_devices":"0","bytes_tx":"1309877554","bytes_rx":"1719581208","packets_dropped":"4294512611","ip_address":"192.168.0.248","rx_rate_90":"16342","@timestamp":"2017-03-07T21:24:12Z","send_data_kb":"5442469","multicast_packets_tx":"0","meta":{"name":"Seating - 1","num":"3","location_name":"Seating","location":{"lat":"-12.03003","lon":"11.96411"},"tags_all":["Closed","Opening Keynote"]},"connection_mode":"layer3","packets_rx_success":"8802236","status":"connected"},"sort":[1488921852000]},{"_index":"snmp-2017-03-07","_type":"ap_info","_id":"AVqqqH5sS1Dkdox7yQeT","_score":null,"_source":{"unicast_packets_rx":"3934489","num_radios":"2","num_auth_clients":"2","unicast_packets_tx":"1693044","receive_data_kb":"441993","dns_primary":"8.8.8.8","max_clients_permitted":"512","packets_tx":"1693044","packets_rx_error":"0","packets_rx":"3934489","bytes_rx_per_sec":0,"multicast_packets_rx":"0","bytes_tx_per_sec":0,"tx_rate_90":"0","mac_address":"38:ff:36:32:ff:90","dns_secondary":"8.8.4.4","num_rogue_devices":"1","bytes_tx":"799636470","bytes_rx":"2097125651","packets_dropped":"613671368","ip_address":"192.168.0.246","rx_rate_90":"0","@timestamp":"2017-03-07T21:24:12Z","send_data_kb":"1774567","multicast_packets_tx":"0","meta":{"name":"Stage A - 3","num":"11","location_name":"Stage A","location":{"lat":"-8.84399","lon":"12.90894"},"tags_all":["Closed","Opening Keynote"],"tags_on":["Closed"]},"connection_mode":"layer3","packets_rx_success":"3934489","status":"connected"},"sort":[1488921852000]},{"_index":"snmp-2017-03-07","_type":"ap_info","_id":"AVqqqH5sS1Dkdox7yQeU","_score":null,"_source":{"unicast_packets_rx":"21073141","num_radios":"2","num_auth_clients":"3","unicast_packets_tx":"16082512","receive_data_kb":"5151805","dns_primary":"8.8.8.8","max_clients_permitted":"512","packets_tx":"16082512","packets_rx_error":"0","packets_rx":"21073141","bytes_rx_per_sec":0,"multicast_packets_rx":"0","bytes_tx_per_sec":0,"tx_rate_90":"0","mac_address":"38:ff:36:33:0:90","dns_secondary":"8.8.4.4","num_rogue_devices":"1","bytes_tx":"279701370","bytes_rx":"2986044764","packets_dropped":"2946803777","ip_address":"192.168.0.221","rx_rate_90":"0","@timestamp":"2017-03-07T21:24:12Z","send_data_kb":"18834867","multicast_packets_tx":"0","meta":{"name":"Stage A - 4","num":"12","location_name":"Stage A","location":{"lat":"-9.94263","lon":"14.66675"},"tags_all":["Closed","Opening Keynote"],"tags_on":["Closed"]},"connection_mode":"layer3","packets_rx_success":"21073141","status":"connected"},"sort":[1488921852000]},{"_index":"snmp-2017-03-07","_type":"ap_info","_id":"AVqqqH5sS1Dkdox7yQeV","_score":null,"_source":{"unicast_packets_rx":"6339170","num_radios":"2","num_auth_clients":"21","unicast_packets_tx":"3623636","receive_data_kb":"769336","dns_primary":"8.8.8.8","max_clients_permitted":"512","packets_tx":"3623636","packets_rx_error":"0","packets_rx":"6339170","bytes_rx_per_sec":0,"multicast_packets_rx":"0","bytes_tx_per_sec":0,"tx_rate_90":"8947","mac_address":"38:ff:36:33:1:70","dns_secondary":"8.8.4.4","num_rogue_devices":"2","bytes_tx":"1147888254","bytes_rx":"23368334","packets_dropped":"813892060","ip_address":"192.168.0.176","rx_rate_90":"0","@timestamp":"2017-03-07T21:24:12Z","send_data_kb":"4163871","multicast_packets_tx":"0","meta":{"name":"Stage B - 10","num":"31","location_name":"Stage B","location":{"lat":"-11.38184","lon":"32.14600"},"tags_all":["Closed","Opening Keynote"],"tags_on":["Opening Keynote"]},"connection_mode":"layer3","packets_rx_success":"6339170","status":"connected"},"sort":[1488921852000]},{"_index":"snmp-2017-03-07","_type":"ap_info","_id":"AVqqqH5sS1Dkdox7yQeW","_score":null,"_source":{"unicast_packets_rx":"13482256","num_radios":"2","num_auth_clients":"15","unicast_packets_tx":"9984378","receive_data_kb":"1662083","dns_primary":"8.8.8.8","max_clients_permitted":"512","packets_tx":"9984378","packets_rx_error":"0","packets_rx":"13482256","bytes_rx_per_sec":268182,"multicast_packets_rx":"0","bytes_tx_per_sec":44771,"tx_rate_90":"24593","mac_address":"38:ff:36:33:4:0","dns_secondary":"8.8.4.4","num_rogue_devices":"1","bytes_tx":"2558237878","bytes_rx":"3174559586","packets_dropped":"2217707474","ip_address":"192.168.0.218","rx_rate_90":"12522","@timestamp":"2017-03-07T21:24:12Z","send_data_kb":"10871054","multicast_packets_tx":"0","meta":{"name":"Spotlight - 1","num":"5","location_name":"Spotlight","location":{"lat":"-11.96411","lon":"18.75366"},"tags_all":["Closed","Opening Keynote"],"tags_on":["Closed"]},"connection_mode":"layer3","packets_rx_success":"13482256","status":"connected"},"sort":[1488921852000]},{"_index":"snmp-2017-03-07","_type":"ap_info","_id":"AVqqqH5sS1Dkdox7yQeX","_score":null,"_source":{"unicast_packets_rx":"6577534","num_radios":"2","num_auth_clients":"135","unicast_packets_tx":"3427706","receive_data_kb":"1013154","dns_primary":"8.8.8.8","max_clients_permitted":"512","packets_tx":"3427706","packets_rx_error":"0","packets_rx":"6577534","bytes_rx_per_sec":6135570,"multicast_packets_rx":"0","bytes_tx_per_sec":1318102,"tx_rate_90":"4096","mac_address":"38:ff:36:33:4:30","dns_secondary":"8.8.4.4","num_rogue_devices":"5","bytes_tx":"1525464693","bytes_rx":"3819577313","packets_dropped":"1530834207","ip_address":"192.168.0.214","rx_rate_90":"41191","@timestamp":"2017-03-07T21:24:12Z","send_data_kb":"3281707","multicast_packets_tx":"0","meta":{"name":"Stage B - 3","num":"20","location_name":"Stage B","location":{"lat":"-10.22827","lon":"28.24585"},"tags_all":["Closed","Opening Keynote"],"tags_on":["Opening Keynote"]},"connection_mode":"layer3","packets_rx_success":"6577534","status":"connected"},"sort":[1488921852000]},{"_index":"snmp-2017-03-07","_type":"ap_info","_id":"AVqqqH5sS1Dkdox7yQeY","_score":null,"_source":{"unicast_packets_rx":"10575271","num_radios":"2","num_auth_clients":"26","unicast_packets_tx":"6493918","receive_data_kb":"595720","dns_primary":"8.8.8.8","max_clients_permitted":"512","packets_tx":"6493918","packets_rx_error":"0","packets_rx":"10575271","bytes_rx_per_sec":0,"multicast_packets_rx":"0","bytes_tx_per_sec":0,"tx_rate_90":"1721","mac_address":"38:ff:36:33:4:b0","dns_secondary":"8.8.4.4","num_rogue_devices":"4","bytes_tx":"902026959","bytes_rx":"2860931493","packets_dropped":"547130201","ip_address":"192.168.0.180","rx_rate_90":"24956","@timestamp":"2017-03-07T21:24:12Z","send_data_kb":"10858057","multicast_packets_tx":"0","meta":{"name":"Stage B - 8","num":"29","location_name":"Stage B","location":{"lat":"-13.88672","lon":"31.83838"},"tags_all":["Closed","Opening Keynote"],"tags_on":["Opening Keynote"]},"connection_mode":"layer3","packets_rx_success":"10575271","status":"connected"},"sort":[1488921852000]},{"_index":"snmp-2017-03-07","_type":"ap_info","_id":"AVqqqH5sS1Dkdox7yQeZ","_score":null,"_source":{"unicast_packets_rx":"4734891","num_radios":"2","num_auth_clients":"6","unicast_packets_tx":"1670441","receive_data_kb":"171212","dns_primary":"8.8.8.8","max_clients_permitted":"512","packets_tx":"1670441","packets_rx_error":"0","packets_rx":"4734891","bytes_rx_per_sec":53957,"multicast_packets_rx":"0","bytes_tx_per_sec":14800,"tx_rate_90":"0","mac_address":"58:b6:33:14:fa:30","dns_secondary":"8.8.4.4","num_rogue_devices":"4","bytes_tx":"261177629","bytes_rx":"3159213164","packets_dropped":"70697","ip_address":"192.168.0.179","rx_rate_90":"0","@timestamp":"2017-03-07T21:24:12Z","send_data_kb":"2958059","multicast_packets_tx":"0","meta":{"name":"Stage B - 7","num":"28","location_name":"Stage B","location":{"lat":"-9.47021","lon":"31.77246"},"tags_all":["Closed","Opening Keynote"],"tags_on":["Opening Keynote"]},"connection_mode":"layer3","packets_rx_success":"4734891","status":"connected"},"sort":[1488921852000]}]}}
+38:ff:36:19:12:c0 : 16.0
+16.0 points at 0.4970352, 0.44460115
+38:ff:36:32:6b:f0 : 24.0
+24.0 points at 0.8253861, 0.21699429
+38:ff:36:32:75:80 : 2.0
+2.0 points at 0.3443484, 0.59233123
+38:ff:36:32:ff:90 : 2.0
+2.0 points at 0.36559623, 0.84141123
+38:ff:36:33:0:90 : 3.0
+3.0 points at -0.1495916, 2.3146076
+38:ff:36:33:1:70 : 21.0
+21.0 points at -0.1495916, 2.3146076
+38:ff:36:33:4:0 : 15.0
+15.0 points at -0.1495916, 2.3146076
+38:ff:36:33:4:30 : 135.0
+135.0 points at -0.1495916, 2.3146076
+38:ff:36:33:4:b0 : 26.0
+26.0 points at -0.1495916, 2.3146076
+58:b6:33:14:fa:30 : 6.0
+6.0 points at 0.78980863, 0.79245424
+Detect Poses: 148.0 142.0 63.0 90.0 180.0 90.0 57.0
+Detect Poses: 153.0 142.0 63.0 90.0 180.0 90.0 57.0
+Detect Poses: 154.0 133.0 93.0 91.0 180.0 90.0 57.0
+Detect Poses: 152.0 117.0 105.0 93.0 180.0 90.0 57.0
+Detect Poses: 154.0 132.0 94.0 91.0 180.0 89.0 58.0
+Detect Poses: 152.0 117.0 105.0 93.0 180.0 90.0 57.0
+Detect Poses: 154.0 132.0 94.0 91.0 180.0 89.0 58.0
+65.892654 : 193.26073 : 183.18022
+66.51487 : 197.92738 : 178.51357
+67.13709 : 202.59406 : 173.8469
+67.13709 : 202.59406 : 173.8469
+66.51487 : 197.92738 : 178.51357
+65.892654 : 193.26073 : 183.18022
+65.27043 : 188.59406 : 187.8469
+49.52009 : 211.22104 : 218.88689
+50.14231 : 215.8877 : 214.22023
+50.764534 : 220.55437 : 209.55356
+50.764534 : 220.55437 : 209.55356
+50.14231 : 215.8877 : 214.22023
+49.52009 : 211.22104 : 218.88689
+48.897865 : 206.55437 : 223.55356
+44.697666 : 178.19489 : 159.5152
+45.319885 : 182.86154 : 154.84854
+45.94211 : 187.52821 : 150.18187
+45.94211 : 187.52821 : 150.18187
+45.319885 : 182.86154 : 154.84854
+44.697666 : 178.19489 : 159.5152
+44.075443 : 173.52821 : 164.18187
+58.040066 : 193.41898 : 184.88232
+58.66229 : 198.08563 : 180.21567
+59.28451 : 202.7523 : 175.549
+59.28451 : 202.7523 : 175.549
+58.66229 : 198.08563 : 180.21567
+58.040066 : 193.41898 : 184.88232
+57.417843 : 188.7523 : 189.549
+59.837574 : 201.01814 : 198.41965
+60.459797 : 205.6848 : 193.75299
+61.08202 : 210.35147 : 189.08632
+61.08202 : 210.35147 : 189.08632
+60.459797 : 205.6848 : 193.75299
+59.837574 : 201.01814 : 198.41965
+59.21535 : 196.35147 : 203.08632
+Detect Poses: 150.0 142.0 63.0 90.0 180.0 90.0 57.0
+Detect Poses: 153.0 142.0 63.0 90.0 180.0 90.0 56.0
+Detect Poses: 154.0 133.0 93.0 90.0 180.0 90.0 56.0
+87.30439 : 194.94637 : 182.40071
+87.926605 : 199.61302 : 177.73405
+88.54883 : 204.2797 : 173.06738
+88.54883 : 204.2797 : 173.06738
+87.926605 : 199.61302 : 177.73405
+87.30439 : 194.94637 : 182.40071
+86.68217 : 190.2797 : 187.06738
+27.022001 : 197.77449 : 198.41005
+27.644222 : 202.44115 : 193.7434
+28.266445 : 207.10782 : 189.07672
+28.266445 : 207.10782 : 189.07672
+27.644222 : 202.44115 : 193.7434
+27.022001 : 197.77449 : 198.41005
+26.399778 : 193.10782 : 203.07672
+41.72876 : 197.33162 : 194.955
+42.35098 : 201.99828 : 190.28835
+42.973206 : 206.66495 : 185.62167
+42.973206 : 206.66495 : 185.62167
+42.35098 : 201.99828 : 190.28835
+41.72876 : 197.33162 : 194.955
+41.106537 : 192.66495 : 199.62167
+-12.179929 : 167.84538 : 146.49092
+-12.80215 : 172.51204 : 141.82426
+-13.424373 : 177.17871 : 137.1576
+-13.424373 : 177.17871 : 137.1576
+-12.80215 : 172.51204 : 141.82426
+-12.179929 : 167.84538 : 146.49092
+-11.557706 : 163.17871 : 151.1576
+33.01404 : 203.71323 : 208.16374
+33.636265 : 208.37988 : 203.49709
+34.258488 : 213.04657 : 198.83041
+34.258488 : 213.04657 : 198.83041
+33.636265 : 208.37988 : 203.49709
+33.01404 : 203.71323 : 208.16374
+32.391823 : 199.04657 : 212.83041
+Detect Poses: 150.0 142.0 63.0 90.0 180.0 90.0 56.0
+Detect Poses: 153.0 142.0 63.0 90.0 180.0 90.0 56.0
+Detect Poses: 154.0 133.0 93.0 90.0 180.0 90.0 57.0
+Detect Poses: 152.0 117.0 105.0 93.0 180.0 90.0 56.0
+Detect Poses: 154.0 132.0 94.0 91.0 180.0 89.0 57.0
+Detect Poses: 152.0 117.0 104.0 93.0 180.0 90.0 56.0
+Detect Poses: 154.0 132.0 94.0 91.0 180.0 89.0 57.0
+102.07024 : 197.39522 : 184.20955
+102.69246 : 202.06187 : 179.5429
+103.31468 : 206.72855 : 174.87622
+103.31468 : 206.72855 : 174.87622
+102.69246 : 202.06187 : 179.5429
+102.07024 : 197.39522 : 184.20955
+101.44801 : 192.72855 : 188.87622
+-23.565145 : 187.10431 : 179.56985
+-24.187366 : 191.77097 : 174.9032
+-24.80959 : 196.43764 : 170.23653
+-24.80959 : 196.43764 : 170.23653
+-24.187366 : 191.77097 : 174.9032
+-23.565145 : 187.10431 : 179.56985
+-22.942923 : 182.43764 : 184.23653
+65.84872 : 210.12634 : 213.951
+66.47094 : 214.793 : 209.28435
+67.09316 : 219.45967 : 204.61768
+67.09316 : 219.45967 : 204.61768
+66.47094 : 214.793 : 209.28435
+65.84872 : 210.12634 : 213.951
+65.226494 : 205.45967 : 218.61768
+45.835567 : 199.94374 : 198.9803
+46.45779 : 204.6104 : 194.31364
+47.080013 : 209.27707 : 189.64697
+47.080013 : 209.27707 : 189.64697
+46.45779 : 204.6104 : 194.31364
+45.835567 : 199.94374 : 198.9803
+45.213345 : 195.27707 : 203.64697
+50.38311 : 195.13008 : 189.38164
+51.00533 : 199.79674 : 184.71498
+51.627552 : 204.46341 : 180.04831
+51.627552 : 204.46341 : 180.04831
+51.00533 : 199.79674 : 184.71498
+50.38311 : 195.13008 : 189.38164
+49.760887 : 190.46341 : 194.04831
+Detect Poses: 151.0 142.0 63.0 90.0 180.0 90.0 57.0
+Detect Poses: 153.0 142.0 63.0 90.0 180.0 90.0 57.0
+Detect Poses: 154.0 133.0 93.0 90.0 180.0 90.0 57.0
+Detect Poses: 152.0 117.0 104.0 93.0 180.0 90.0 57.0
+Detect Poses: 154.0 132.0 94.0 91.0 180.0 89.0 57.0
+Detect Poses: 153.0 117.0 104.0 93.0 180.0 90.0 57.0
+Detect Poses: 154.0 132.0 94.0 91.0 180.0 89.0 57.0
+72.56759 : 198.20595 : 190.9988
+73.18981 : 202.8726 : 186.33214
+73.812035 : 207.53928 : 181.66547
+73.812035 : 207.53928 : 181.66547
+73.18981 : 202.8726 : 186.33214
+72.56759 : 198.20595 : 190.9988
+71.945366 : 193.53928 : 195.66547
+40.993984 : 193.55144 : 188.19225
+41.616203 : 198.2181 : 183.52559
+42.238426 : 202.88477 : 178.85892
+42.238426 : 202.88477 : 178.85892
+41.616203 : 198.2181 : 183.52559
+40.993984 : 193.55144 : 188.19225
+40.37176 : 188.88477 : 192.85892
+52.904575 : 198.66028 : 195.36685
+53.526794 : 203.32693 : 190.7002
+54.149017 : 207.9936 : 186.03352
+54.149017 : 207.9936 : 186.03352
+53.526794 : 203.32693 : 190.7002
+52.904575 : 198.66028 : 195.36685
+52.282352 : 193.9936 : 200.03352
+-14.979913 : 180.81654 : 169.64632
+-15.602134 : 185.4832 : 164.97966
+-16.224358 : 190.14987 : 160.31299
+-16.224358 : 190.14987 : 160.31299
+-15.602134 : 185.4832 : 164.97966
+-14.979913 : 180.81654 : 169.64632
+-14.35769 : 176.14987 : 174.31299
+-33.207603 : 194.8226 : 191.91235
+-33.829823 : 199.48926 : 187.2457
+-34.452045 : 204.15593 : 182.57903
+-34.452045 : 204.15593 : 182.57903
+-33.829823 : 199.48926 : 187.2457
+-33.207603 : 194.8226 : 191.91235
+-32.585377 : 190.15593 : 196.57903
+Detect Poses: 149.0 142.0 63.0 90.0 180.0 90.0 57.0
+Detect Poses: 153.0 142.0 63.0 90.0 180.0 90.0 57.0
+Detect Poses: 154.0 133.0 93.0 90.0 180.0 90.0 57.0
+Detect Poses: 152.0 117.0 104.0 93.0 180.0 90.0 56.0
+Detect Poses: 154.0 132.0 94.0 91.0 180.0 89.0 57.0
+Detect Poses: 152.0 117.0 104.0 93.0 180.0 90.0 56.0
+72.832924 : 204.5669 : 202.55339
+73.45514 : 209.23355 : 197.88673
+74.07736 : 213.90022 : 193.22006
+74.07736 : 213.90022 : 193.22006
+73.45514 : 209.23355 : 197.88673
+72.832924 : 204.5669 : 202.55339
+72.2107 : 199.90022 : 207.22006
+-19.00225 : 172.21036 : 153.22462
+-19.624474 : 176.87701 : 148.55797
+-20.246696 : 181.54369 : 143.8913
+-20.246696 : 181.54369 : 143.8913
+-19.624474 : 176.87701 : 148.55797
+-19.00225 : 172.21036 : 153.22462
+-18.380028 : 167.54369 : 157.8913
+-51.63653 : 171.8695 : 146.72874
+-52.25875 : 176.53616 : 142.06209
+-52.880974 : 181.20284 : 137.39542
+-52.880974 : 181.20284 : 137.39542
+-52.25875 : 176.53616 : 142.06209
+-51.63653 : 171.8695 : 146.72874
+-51.01431 : 167.20284 : 151.39542
+-37.653008 : 170.34526 : 146.46552
+-38.27523 : 175.01192 : 141.79886
+-38.897453 : 179.67859 : 137.13219
+-38.897453 : 179.67859 : 137.13219
+-38.27523 : 175.01192 : 141.79886
+-37.653008 : 170.34526 : 146.46552
+-37.030785 : 165.67859 : 151.13219
+76.077644 : 203.10316 : 199.29951
+76.69987 : 207.76982 : 194.63286
+77.32209 : 212.4365 : 189.96619
+77.32209 : 212.4365 : 189.96619
+76.69987 : 207.76982 : 194.63286
+76.077644 : 203.10316 : 199.29951
+75.45542 : 198.4365 : 203.96619
+Detect Poses: 147.0 142.0 63.0 90.0 180.0 90.0 56.0
+Detect Poses: 153.0 142.0 63.0 90.0 180.0 90.0 56.0
+Detect Poses: 154.0 133.0 93.0 90.0 180.0 90.0 56.0
+Detect Poses: 152.0 117.0 104.0 93.0 180.0 90.0 56.0
+Detect Poses: 154.0 132.0 94.0 91.0 180.0 89.0 56.0
+Detect Poses: 152.0 117.0 104.0 93.0 180.0 90.0 56.0
+Detect Poses: 154.0 132.0 94.0 91.0 180.0 89.0 57.0
+16.327394 : 191.6227 : 189.11418
+16.949615 : 196.28935 : 184.44753
+17.571838 : 200.95602 : 179.78085
+17.571838 : 200.95602 : 179.78085
+16.949615 : 196.28935 : 184.44753
+16.327394 : 191.6227 : 189.11418
+15.705172 : 186.95602 : 193.78085
+45.90889 : 189.90509 : 180.65659
+46.531113 : 194.57175 : 175.98993
+47.153336 : 199.23842 : 171.32326
+47.153336 : 199.23842 : 171.32326
+46.531113 : 194.57175 : 175.98993
+45.90889 : 189.90509 : 180.65659
+45.286667 : 185.23842 : 185.32326
+57.761036 : 177.81346 : 156.46808
+58.383255 : 182.48012 : 151.80142
+59.005478 : 187.14679 : 147.13475
+59.005478 : 187.14679 : 147.13475
+58.383255 : 182.48012 : 151.80142
+57.761036 : 177.81346 : 156.46808
+57.138813 : 173.14679 : 161.13475
+59.318443 : 213.4716 : 221.2282
+59.940666 : 218.13826 : 216.56154
+60.56289 : 222.80493 : 211.89487
+60.56289 : 222.80493 : 211.89487
+59.940666 : 218.13826 : 216.56154
+59.318443 : 213.4716 : 221.2282
+58.69622 : 208.80493 : 225.89487
+44.712494 : 201.26758 : 201.59715
+45.334713 : 205.93423 : 196.9305
+45.95694 : 210.60092 : 192.26382
+45.95694 : 210.60092 : 192.26382
+45.334713 : 205.93423 : 196.9305
+44.712494 : 201.26758 : 201.59715
+44.09027 : 196.60092 : 206.26382
+::::: 0
+https://a988764591d47d22b828dbd6616886fe.eu-west-1.aws.found.io:9243/snmp-2017-03-07/ap_info/_search?source=%7b%22sort%22:%5b%7b%22@timestamp%22:%7b%22order%22:%22desc%22%7d%7d%5d%7d
+https://a988764591d47d22b828dbd6616886fe.eu-west-1.aws.found.io:9243/snmp-2017-03-07/ap_info/_search?source=%7b%22sort%22:%5b%7b%22@timestamp%22:%7b%22order%22:%22desc%22%7d%7d%5d%7d
+Reponse Content: {"took":10,"timed_out":false,"_shards":{"total":1,"successful":1,"failed":0},"hits":{"total":82906,"max_score":null,"hits":[{"_index":"snmp-2017-03-07","_type":"ap_info","_id":"AVqqqlM2S1Dkdox7yT6n","_score":null,"_source":{"unicast_packets_rx":"997057","num_radios":"2","num_auth_clients":"15","unicast_packets_tx":"459833","receive_data_kb":"100790","dns_primary":"8.8.8.8","max_clients_permitted":"512","packets_tx":"459833","packets_rx_error":"0","packets_rx":"997057","bytes_rx_per_sec":0,"multicast_packets_rx":"0","bytes_tx_per_sec":0,"tx_rate_90":"0","mac_address":"38:ff:36:19:12:c0","dns_secondary":"8.8.4.4","num_rogue_devices":"1","bytes_tx":"173352514","bytes_rx":"619810846","packets_dropped":"117722402","ip_address":"192.168.0.247","rx_rate_90":"1231","@timestamp":"2017-03-07T21:26:12Z","send_data_kb":"549177","multicast_packets_tx":"0","meta":{"name":"Spotlight - 2","num":"6","location_name":"Spotlight","location":{"lat":"-13.91968","lon":"18.75366"},"tags_all":["Closed","Opening Keynote"],"tags_on":["Closed"]},"connection_mode":"layer3","packets_rx_success":"997057","status":"connected"},"sort":[1488921972000]},{"_index":"snmp-2017-03-07","_type":"ap_info","_id":"AVqqqlM2S1Dkdox7yT6o","_score":null,"_source":{"unicast_packets_rx":"4730961","num_radios":"2","num_auth_clients":"24","unicast_packets_tx":"1965032","receive_data_kb":"397517","dns_primary":"8.8.8.8","max_clients_permitted":"512","packets_tx":"1965032","packets_rx_error":"0","packets_rx":"4730961","bytes_rx_per_sec":0,"multicast_packets_rx":"0","bytes_tx_per_sec":0,"tx_rate_90":"3618","mac_address":"38:ff:36:32:6b:f0","dns_secondary":"8.8.4.4","num_rogue_devices":"1","bytes_tx":"628478754","bytes_rx":"2448057433","packets_dropped":"48506","ip_address":"192.168.0.193","rx_rate_90":"4382","@timestamp":"2017-03-07T21:26:12Z","send_data_kb":"2111961","multicast_packets_tx":"0","meta":{"name":"Stage C - 3","num":"26","location_name":"Stage C","location":{"lat":"-16.83105","lon":"33.35449"},"tags_all":["Closed","Opening Keynote"],"tags_on":["Closed"]},"connection_mode":"layer3","packets_rx_success":"4730961","status":"connected"},"sort":[1488921972000]},{"_index":"snmp-2017-03-07","_type":"ap_info","_id":"AVqqqlM2S1Dkdox7yT6p","_score":null,"_source":{"unicast_packets_rx":"8813421","num_radios":"2","num_auth_clients":"2","unicast_packets_tx":"4722270","receive_data_kb":"872694","dns_primary":"8.8.8.8","max_clients_permitted":"512","packets_tx":"4722270","packets_rx_error":"0","packets_rx":"8813421","bytes_rx_per_sec":49878,"multicast_packets_rx":"0","bytes_tx_per_sec":0,"tx_rate_90":"5039","mac_address":"38:ff:36:32:75:80","dns_secondary":"8.8.4.4","num_rogue_devices":"0","bytes_tx":"1309890112","bytes_rx":"1721077761","packets_dropped":"4294512616","ip_address":"192.168.0.248","rx_rate_90":"0","@timestamp":"2017-03-07T21:26:12Z","send_data_kb":"5443633","multicast_packets_tx":"0","meta":{"name":"Seating - 1","num":"3","location_name":"Seating","location":{"lat":"-12.03003","lon":"11.96411"},"tags_all":["Closed","Opening Keynote"]},"connection_mode":"layer3","packets_rx_success":"8813421","status":"connected"},"sort":[1488921972000]},{"_index":"snmp-2017-03-07","_type":"ap_info","_id":"AVqqqlM2S1Dkdox7yT6q","_score":null,"_source":{"unicast_packets_rx":"3957168","num_radios":"2","num_auth_clients":"1","unicast_packets_tx":"1695353","receive_data_kb":"442461","dns_primary":"8.8.8.8","max_clients_permitted":"512","packets_tx":"1694841","packets_rx_error":"0","packets_rx":"3947179","bytes_rx_per_sec":0,"multicast_packets_rx":"0","bytes_tx_per_sec":0,"tx_rate_90":"0","mac_address":"38:ff:36:32:ff:90","dns_secondary":"8.8.4.4","num_rogue_devices":"1","bytes_tx":"800439694","bytes_rx":"2098994321","packets_dropped":"613671377","ip_address":"192.168.0.246","rx_rate_90":"21909","@timestamp":"2017-03-07T21:26:12Z","send_data_kb":"1776404","multicast_packets_tx":"0","meta":{"name":"Stage A - 3","num":"11","location_name":"Stage A","location":{"lat":"-8.84399","lon":"12.90894"},"tags_all":["Closed","Opening Keynote"],"tags_on":["Closed"]},"connection_mode":"layer3","packets_rx_success":"3947179","status":"connected"},"sort":[1488921972000]},{"_index":"snmp-2017-03-07","_type":"ap_info","_id":"AVqqqlM2S1Dkdox7yT6r","_score":null,"_source":{"unicast_packets_rx":"21095893","num_radios":"2","num_auth_clients":"4","unicast_packets_tx":"16084552","receive_data_kb":"5152057","dns_primary":"8.8.8.8","max_clients_permitted":"512","packets_tx":"16083607","packets_rx_error":"0","packets_rx":"21085322","bytes_rx_per_sec":0,"multicast_packets_rx":"0","bytes_tx_per_sec":0,"tx_rate_90":"0","mac_address":"38:ff:36:33:0:90","dns_secondary":"8.8.4.4","num_rogue_devices":"1","bytes_tx":"279981935","bytes_rx":"2987882623","packets_dropped":"2946803783","ip_address":"192.168.0.221","rx_rate_90":"1104","@timestamp":"2017-03-07T21:26:12Z","send_data_kb":"18837389","multicast_packets_tx":"0","meta":{"name":"Stage A - 4","num":"12","location_name":"Stage A","location":{"lat":"-9.94263","lon":"14.66675"},"tags_all":["Closed","Opening Keynote"],"tags_on":["Closed"]},"connection_mode":"layer3","packets_rx_success":"21085322","status":"connected"},"sort":[1488921972000]},{"_index":"snmp-2017-03-07","_type":"ap_info","_id":"AVqqqlM2S1Dkdox7yT6s","_score":null,"_source":{"unicast_packets_rx":"6386903","num_radios":"2","num_auth_clients":"18","unicast_packets_tx":"3641034","receive_data_kb":"769598","dns_primary":"8.8.8.8","max_clients_permitted":"512","packets_tx":"3628064","packets_rx_error":"0","packets_rx":"6355220","bytes_rx_per_sec":0,"multicast_packets_rx":"0","bytes_tx_per_sec":0,"tx_rate_90":"0","mac_address":"38:ff:36:33:1:70","dns_secondary":"8.8.4.4","num_rogue_devices":"2","bytes_tx":"1148776027","bytes_rx":"29866048","packets_dropped":"813892069","ip_address":"192.168.0.176","rx_rate_90":"0","@timestamp":"2017-03-07T21:26:12Z","send_data_kb":"4165766","multicast_packets_tx":"0","meta":{"name":"Stage B - 10","num":"31","location_name":"Stage B","location":{"lat":"-11.38184","lon":"32.14600"},"tags_all":["Closed","Opening Keynote"],"tags_on":["Opening Keynote"]},"connection_mode":"layer3","packets_rx_success":"6355220","status":"connected"},"sort":[1488921972000]},{"_index":"snmp-2017-03-07","_type":"ap_info","_id":"AVqqqlM2S1Dkdox7yT6t","_score":null,"_source":{"unicast_packets_rx":"13504992","num_radios":"2","num_auth_clients":"16","unicast_packets_tx":"9994842","receive_data_kb":"1664125","dns_primary":"8.8.8.8","max_clients_permitted":"512","packets_tx":"9994842","packets_rx_error":"0","packets_rx":"13504992","bytes_rx_per_sec":0,"multicast_packets_rx":"0","bytes_tx_per_sec":0,"tx_rate_90":"20277","mac_address":"38:ff:36:33:4:0","dns_secondary":"8.8.4.4","num_rogue_devices":"2","bytes_tx":"2561143983","bytes_rx":"3185019596","packets_dropped":"2217707483","ip_address":"192.168.0.218","rx_rate_90":"8130","@timestamp":"2017-03-07T21:26:12Z","send_data_kb":"10879668","multicast_packets_tx":"0","meta":{"name":"Spotlight - 1","num":"5","location_name":"Spotlight","location":{"lat":"-11.96411","lon":"18.75366"},"tags_all":["Closed","Opening Keynote"],"tags_on":["Closed"]},"connection_mode":"layer3","packets_rx_success":"13504992","status":"connected"},"sort":[1488921972000]},{"_index":"snmp-2017-03-07","_type":"ap_info","_id":"AVqqqlM2S1Dkdox7yT6u","_score":null,"_source":{"unicast_packets_rx":"6801218","num_radios":"2","num_auth_clients":"141","unicast_packets_tx":"3615350","receive_data_kb":"1039185","dns_primary":"8.8.8.8","max_clients_permitted":"512","packets_tx":"3513657","packets_rx_error":"0","packets_rx":"6674361","bytes_rx_per_sec":0,"multicast_packets_rx":"0","bytes_tx_per_sec":0,"tx_rate_90":"0","mac_address":"38:ff:36:33:4:30","dns_secondary":"8.8.4.4","num_rogue_devices":"5","bytes_tx":"1562963181","bytes_rx":"3909099762","packets_dropped":"1530834212","ip_address":"192.168.0.214","rx_rate_90":"15498","@timestamp":"2017-03-07T21:26:12Z","send_data_kb":"3365005","multicast_packets_tx":"0","meta":{"name":"Stage B - 3","num":"20","location_name":"Stage B","location":{"lat":"-10.22827","lon":"28.24585"},"tags_all":["Closed","Opening Keynote"],"tags_on":["Opening Keynote"]},"connection_mode":"layer3","packets_rx_success":"6674361","status":"connected"},"sort":[1488921972000]},{"_index":"snmp-2017-03-07","_type":"ap_info","_id":"AVqqqlM2S1Dkdox7yT6v","_score":null,"_source":{"unicast_packets_rx":"10619258","num_radios":"2","num_auth_clients":"27","unicast_packets_tx":"6516427","receive_data_kb":"597464","dns_primary":"8.8.8.8","max_clients_permitted":"512","packets_tx":"6505897","packets_rx_error":"0","packets_rx":"10598980","bytes_rx_per_sec":0,"multicast_packets_rx":"0","bytes_tx_per_sec":0,"tx_rate_90":"1709","mac_address":"38:ff:36:33:4:b0","dns_secondary":"8.8.4.4","num_rogue_devices":"4","bytes_tx":"904394849","bytes_rx":"2875174819","packets_dropped":"547130210","ip_address":"192.168.0.180","rx_rate_90":"24998","@timestamp":"2017-03-07T21:26:12Z","send_data_kb":"10869462","multicast_packets_tx":"0","meta":{"name":"Stage B - 8","num":"29","location_name":"Stage B","location":{"lat":"-13.88672","lon":"31.83838"},"tags_all":["Closed","Opening Keynote"],"tags_on":["Opening Keynote"]},"connection_mode":"layer3","packets_rx_success":"10598980","status":"connected"},"sort":[1488921972000]},{"_index":"snmp-2017-03-07","_type":"ap_info","_id":"AVqqqlM2S1Dkdox7yT6w","_score":null,"_source":{"unicast_packets_rx":"4748273","num_radios":"2","num_auth_clients":"5","unicast_packets_tx":"1673126","receive_data_kb":"171620","dns_primary":"8.8.8.8","max_clients_permitted":"512","packets_tx":"1673126","packets_rx_error":"0","packets_rx":"4748273","bytes_rx_per_sec":0,"multicast_packets_rx":"0","bytes_tx_per_sec":0,"tx_rate_90":"0","mac_address":"58:b6:33:14:fa:30","dns_secondary":"8.8.4.4","num_rogue_devices":"4","bytes_tx":"261766586","bytes_rx":"3162751556","packets_dropped":"70700","ip_address":"192.168.0.179","rx_rate_90":"0","@timestamp":"2017-03-07T21:26:12Z","send_data_kb":"2961047","multicast_packets_tx":"0","meta":{"name":"Stage B - 7","num":"28","location_name":"Stage B","location":{"lat":"-9.47021","lon":"31.77246"},"tags_all":["Closed","Opening Keynote"],"tags_on":["Opening Keynote"]},"connection_mode":"layer3","packets_rx_success":"4748273","status":"connected"},"sort":[1488921972000]}]}}
+38:ff:36:19:12:c0 : 15.0
+15.0 points at 0.4970352, 0.44460115
+38:ff:36:32:6b:f0 : 24.0
+24.0 points at 0.8253861, 0.21699429
+38:ff:36:32:75:80 : 2.0
+2.0 points at 0.3443484, 0.59233123
+38:ff:36:32:ff:90 : 1.0
+1.0 points at 0.36559623, 0.84141123
+38:ff:36:33:0:90 : 4.0
+4.0 points at -0.1495916, 2.3146076
+38:ff:36:33:1:70 : 18.0
+18.0 points at -0.1495916, 2.3146076
+38:ff:36:33:4:0 : 16.0
+16.0 points at -0.1495916, 2.3146076
+38:ff:36:33:4:30 : 141.0
+141.0 points at -0.1495916, 2.3146076
+38:ff:36:33:4:b0 : 27.0
+27.0 points at -0.1495916, 2.3146076
+58:b6:33:14:fa:30 : 5.0
+5.0 points at 0.78980863, 0.79245424
+Detect Poses: 149.0 142.0 63.0 90.0 180.0 90.0 58.0
+Detect Poses: 153.0 142.0 63.0 90.0 180.0 90.0 57.0

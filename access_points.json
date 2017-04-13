@@ -1,0 +1,300 @@
+{
+  "access_points" : [
+      {
+          "number"           : 1,
+          "test_num_clients" : 10,
+          "mac_address"      : "f8:e7:1e:2d:07:90",
+          "name"             : "Registration",
+          "lon"              : 7.74536,
+          "lat"              : -12.77710
+      },
+      {
+          "number"           : 2,
+          "test_num_clients" : 10,
+          "mac_address"      : "58:b6:33:15:6a:70",
+          "name"             : "Coat Check",
+          "lon"              : 8.75610,
+          "lat"              : -12.31567
+      },
+      {
+          "number"           : 3,
+          "test_num_clients" : 0,
+          "mac_address"      : "38:ff:36:32:75:80",
+          "name"             : "Seating - 1",
+          "lon"              : 11.96411,
+          "lat"              : -12.03003
+      },
+      {
+          "number"           : 4,
+          "test_num_clients" : 0,
+          "mac_address"      : "f8:e7:1e:2c:e0:20",
+          "name"             : "Seating - 2",
+          "lon"              : 15.60059,
+          "lat"              : -12.03003
+      },
+      {
+          "number"           : 5,
+          "test_num_clients" : 0,
+          "mac_address"      : "38:ff:36:33:04:0",
+          "name"             : "Spotlight - 1",
+          "lon"              : 18.75366,
+          "lat"              : -11.96411
+      },
+      {
+          "number"           : 6,
+          "test_num_clients" : 0,
+          "mac_address"      : "38:ff:36:19:12:c0",
+          "name"             : "Spotlight - 2",
+          "lon"              : 18.75366,
+          "lat"              : -13.91968
+      },
+      {
+          "number"           : 7,
+          "test_num_clients" : 0,
+          "mac_address"      : "58:b6:33:15:7f:a0",
+          "name"             : "Network Ops",
+          "lon"              : 20.57739,
+          "lat"              : -12.68921
+      },
+      {
+          "number"           : 8,
+          "test_num_clients" : 0,
+          "mac_address"      : "58:b6:33:15:7a:60",
+          "name"             : "Meeting Pods",
+          "lon"              : 7.92114,
+          "lat"              : -9.87671
+      },
+      {
+          "number"           : 9,
+          "test_num_clients" : 0,
+          "mac_address"      : "58:b6:33:15:61:e0",
+          "name"             : "Stage A - 1",
+          "lon"              : 10.97534,
+          "lat"              : -8.82202
+      },
+      {
+          "number"           : 10,
+          "test_num_clients" : 0,
+          "mac_address"      : "58:b6:33:15:79:b0",
+          "name"             : "Stage A - 2",
+          "lon"              : 11.04129,
+          "lat"              : -10.15140 
+      },
+      {
+          "number"           : 11,
+          "test_num_clients" : 0,
+          "mac_address"      : "38:ff:36:32:ff:90",
+          "name"             : "Stage A - 3",
+          "lon"              : 12.90894,
+          "lat"              : -8.84399
+      },
+      {
+          "number"           : 12,
+          "test_num_clients" : 0,
+          "mac_address"      : "38:ff:36:33:0:90",
+          "name"             : "Stage A - 4",
+          "lon"              : 14.66675,
+          "lat"              : -9.94263
+      },
+      {
+          "number"           : 13,
+          "test_num_clients" : 0,
+          "mac_address"      : "58:b6:33:15:79:70",
+          "name"             : "Stage A - 5",
+          "lon"              : 14.66675,
+          "lat"              : -8.82202
+      },
+      {
+          "number"           : 14,
+          "test_num_clients" : 0,
+          "mac_address"      : "f8:e7:1e:2c:bb:90",
+          "name"             : "Stage A - 6",
+          "lon"              : 16.40259,
+          "lat"              : -11.17310
+      },
+      {
+          "number"           : 15,
+          "test_num_clients" : 0,
+          "mac_address"      : "f8:e7:1e:2c:df:d0",
+          "name"             : "AMA - 1",
+          "lon"              : 18.27026,
+          "lat"              : -8.73413
+      },
+      {
+          "number"           : 16,
+          "test_num_clients" : 0,
+          "mac_address"      : "58:b6:33:15:6d:c0",
+          "name"             : "AMA - 2",
+          "lon"              : 21.24756,
+          "lat"              : -8.73413
+      },
+      {
+          "number"           : 17,
+          "test_num_clients" : 0,
+          "mac_address"      : "f8:e7:1e:2c:d9:30",
+          "name"             : "Sponsor Showfloor",
+          "lon"              : 24.26880,
+          "lat"              : -8.73413
+      },
+      {
+          "number"           : 18,
+          "test_num_clients" : 0,
+          "mac_address"      : "58:b6:33:15:79:e0",
+          "name"             : "Stage B - 1",
+          "lon"              : 26.48804,
+          "lat"              : -8.81104
+      },
+      {
+          "number"           : 19,
+          "test_num_clients" : 0,
+          "mac_address"      : "58:b6:33:15:7c:0",
+          "name"             : "Stage B - 2",
+          "lon"              : 29.67407,
+          "lat"              : -8.80005
+      },
+      {
+          "number"           : 20,
+          "test_num_clients" : 0,
+          "mac_address"      : "38:ff:36:33:4:30",
+          "name"             : "Stage B - 3",
+          "lon"              : 28.24585,
+          "lat"              : -10.22827
+      },
+      {
+          "number"           : 21,
+          "test_num_clients" : 0,
+          "mac_address"      : "58:b6:33:15:77:a0",
+          "name"             : "Stage B - 4",
+          "lon"              : 28.23486,
+          "lat"              : -12.77710
+      },
+      {
+          "number"           : 22,
+          "test_num_clients" : 0,
+          "mac_address"      : "58:b6:33:15:6a:50",
+          "name"             : "Stage B - 5",
+          "lon"              : 26.55396,
+          "lat"              : -13.85376
+      },
+      {
+          "number"           : 23,
+          "test_num_clients" : 0,
+          "mac_address"      : "f8:e7:1e:2c:e0:10",
+          "name"             : "Stage B - 6",
+          "lon"              : 29.66309,
+          "lat"              : -13.77686
+      },
+      {
+          "number"           : 24,
+          "test_num_clients" : 0,
+          "mac_address"      : "58:b6:33:15:7c:c0",
+          "name"             : "Stage C - 1",
+          "lon"              : 36.66138,
+          "lat"              : -14.21631
+      },
+      {
+          "number"           : 25,
+          "test_num_clients" : 0,
+          "mac_address"      : "f8:e7:1e:2c:ed:c0",
+          "name"             : "Stage C - 2",
+          "lon"              : 36.67236,
+          "lat"              : -16.80908
+      },
+      {
+          "number"           : 26,
+          "test_num_clients" : 0,
+          "mac_address"      : "38:ff:36:32:6b:f0",
+          "name"             : "Stage C - 3",
+          "lon"              : 33.35449,
+          "lat"              : -16.83105
+      },
+      {
+          "number"           : 27,
+          "test_num_clients" : 0,
+          "mac_address"      : "f8:e7:1e:2d:18:b0",
+          "name"             : "Stage C - 4",
+          "lon"              : 33.33252,
+          "lat"              : -14.22729
+      },
+      {
+          "number"           : 28,
+          "test_num_clients" : 0,
+          "mac_address"      : "58:b6:33:14:fa:30",
+          "name"             : "Stage B - 7",
+          "lon"              : 31.77246,
+          "lat"              : -9.47021
+      },
+      {
+          "number"           : 29,
+          "test_num_clients" : 0,
+          "mac_address"      : "38:ff:36:33:4:b0",
+          "name"             : "Stage B - 8",
+          "lon"              : 31.83838,
+          "lat"              : -13.88672
+      },
+      {
+          "number"           : 30,
+          "test_num_clients" : 0,
+          "mac_address"      : "f8:e7:1e:2c:ca:50",
+          "name"             : "Stage B - 9",
+          "lon"              : 33.81592,
+          "lat"              : -11.31592
+      },
+      {
+          "number"           : 31,
+          "test_num_clients" : 0,
+          "mac_address"      : "38:ff:36:33:1:70",
+          "name"             : "Stage B - 10",
+          "lon"              : 32.14600,
+          "lat"              : -11.38184
+      },
+      {
+          "number"           : 32,
+          "test_num_clients" : 0,
+          "mac_address"      : "d4:68:4d:a:d:30",
+          "name"             : "Courtyard - 1",
+          "lon"              : 23.75244,
+          "lat"              : -14.30420
+      },
+      {
+          "number"           : 33,
+          "test_num_clients" : 0,
+          "mac_address"      : "d4:6a:4d:2a:66:a0",
+          "name"             : "Courtyard - 2",
+          "lon"              : 15.55664,
+          "lat"              : -14.28223
+      },
+      {
+          "number"           : 34,
+          "test_num_clients" : 0,
+          "mac_address"      : "NEEDMAC",
+          "name"             : "Food Truck - 1",
+          "lon"              : 4.43848,
+          "lat"              : -12.56836
+      },
+      {
+          "number"           : 35,
+          "test_num_clients" : 0,
+          "mac_address"      : "NEED MAC",
+          "name"             : "Food Truck - 2",
+          "lon"              : 4.46045,
+          "lat"              : -17.68799
+      },
+      {
+          "number"           : 36,
+          "test_num_clients" : 10,
+          "mac_address"      : "NEED_MAC",
+          "name"             : "Food Truck - 3",
+          "lon"              : 1.09863,
+          "lat"              : -17.66602
+      },
+      {
+          "number"           : 37,
+          "test_num_clients" : 10,
+          "mac_address"      : "NEED_MAC",
+          "name"             : "Food Truck - 4",
+          "lon"              : 1.12061,
+          "lat"              : -12.56836    
+      }
+  ]
+}
